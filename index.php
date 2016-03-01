@@ -9,8 +9,8 @@
   require_once('lib/Aside.php');
   require_once('lib/header.php');
   require_once('lib/Nav.php');
+  require_once('lib/Span.php');
   require_once('lib/Section.php');
-
  ?>
 
 <!DOCTYPE html>
@@ -21,13 +21,13 @@
   </head>
   <body>
     <?php
-      echo new Header(new P('Wauw, wat een prachtig voorbeeld van een header, wauw. Goed gewerkt Milan Lamote!'));
       echo new H1("HTML Lib demo");
       echo new H2("Welcome");
       echo new P('Welcome to my html-lib.');
       echo new Div(new P('Hello world.'));
 
-      echo new Hr();
+      echo new Div(new P('Hello world.'));
+      echo new Span(new P('Hello world. Sille is Cool'),["style"=>"color:red"]);
 
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
 
@@ -36,7 +36,7 @@
       echo new Aside(new H2("ASIDE"));
       echo new Nav(new P('Ik ben een nav element!'));
       echo new Section(new P("I am a section !!! wheee"));
-
     ?>
+    <button type="button" name="button">Test</button>
   </body>
 </html>
