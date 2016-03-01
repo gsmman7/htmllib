@@ -4,6 +4,7 @@
   require_once('lib/P.php');
   require_once('lib/Div.php');
   require_once('lib/Button.php');
+    require_once('lib/Span.php');
  ?>
 
 <!DOCTYPE html>
@@ -19,6 +20,7 @@
       echo new P('Welcome to my html-lib.');
 
       echo new Div(new P('Hello world.'));
+      echo new Span(new P('Hello world.'),["style"=>"color:red"]);
 
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
     ?>
