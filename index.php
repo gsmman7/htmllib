@@ -5,6 +5,7 @@
   require_once('lib/Div.php');
   require_once('lib/Button.php');
   require_once('lib/Hr.php');
+  require_once('lib/Aside.php');
   require_once('lib/header.php');
   require_once('lib/Nav.php');
   require_once('lib/Section.php');
@@ -31,8 +32,12 @@
 =======
 >>>>>>> 9be49cdb8932020b33ba317b4c3dce4b59fc59e2
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
+
+
+      echo new Aside(new H2("ASIDE"));
       echo new Nav(new P('Ik ben een nav element!'));
       echo new Section(new P("I am a section !!! wheee"));
+
     ?>
   </body>
 </html>
