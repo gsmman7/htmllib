@@ -25,12 +25,7 @@
       echo new H2("Welcome");
       echo new P('Welcome to my html-lib.');
       echo new Div(new P('Hello world.'));
-<<<<<<< HEAD
-
       echo new Hr();
-
-=======
->>>>>>> 9be49cdb8932020b33ba317b4c3dce4b59fc59e2
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
 
 
