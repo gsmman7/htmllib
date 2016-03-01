@@ -3,7 +3,7 @@
 require_once("Element.php");
 
 
-// this is a comment, hello world
+// this is a comment, dag wereld
 
 class Section extends Element
 {
