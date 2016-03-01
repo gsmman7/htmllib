@@ -14,8 +14,8 @@
   require_once('lib/Section.php');
   require_once('lib/Table.php');
   require_once('lib/Th.php');
-
-
+  require_once('lib/Tr.php');
+  require_once('lib/Td.php');
  ?>
 
 <!DOCTYPE html>
@@ -35,6 +35,7 @@
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
       echo new Image("http://static3.fjcdn.com/comments/Burn+your+house+down+for+the+glory+of+satan+_fb6303200afd93da8f624e1d76509640.jpg", "for the glory of...");
       echo new Footer("Footer");
+      echo new Hr();
       echo new Aside(new H2("ASIDE"));
       echo new Nav(new P('Ik ben een nav element!'));
       echo new Section(new P("I am a section !!! wheee"));
