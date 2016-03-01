@@ -26,15 +26,12 @@
       echo new H2("Welcome");
       echo new P('Welcome to my html-lib.');
       echo new Div(new P('Hello world.'));
-
       echo new Div(new P('Hello world.'));
       echo new Span(new P('Hello world. Sille is Cool'),["style"=>"color:red"]);
-
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
       echo new Image("http://static3.fjcdn.com/comments/Burn+your+house+down+for+the+glory+of+satan+_fb6303200afd93da8f624e1d76509640.jpg", "for the glory of...");
-
       echo new Footer("Footer");
-
+      echo new Hr();
       echo new Aside(new H2("ASIDE"));
       echo new Nav(new P('Ik ben een nav element!'));
       echo new Section(new P("I am a section !!! wheee"));
