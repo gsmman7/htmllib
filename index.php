@@ -12,6 +12,7 @@
   require_once('lib/Nav.php');
   require_once('lib/Span.php');
   require_once('lib/Section.php');
+  require_once('lib/Form.php');
  ?>
 
 <!DOCTYPE html>
@@ -35,6 +36,7 @@
       echo new Aside(new H2("ASIDE"));
       echo new Nav(new P('Ik ben een nav element!'));
       echo new Section(new P("I am a section !!! wheee"));
+      echo new Form ("http://labict.be/webtech/formchecker/","POST");
     ?>
     <button type="button" name="button">Test</button>
   </body>
