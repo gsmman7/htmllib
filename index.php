@@ -4,6 +4,7 @@
   require_once('lib/P.php');
   require_once('lib/Div.php');
   require_once('lib/Button.php');
+  require_once('lib/Aside.php');
  ?>
 
 <!DOCTYPE html>
@@ -21,6 +22,8 @@
       echo new Div(new P('Hello world.'));
 
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
+
+      echo new Aside(new H2("ASIDE"));
     ?>
     <button type="button" name="button">Test</button>
   </body>
