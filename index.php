@@ -4,7 +4,11 @@
   require_once('lib/P.php');
   require_once('lib/Div.php');
   require_once('lib/Button.php');
+<<<<<<< HEAD
     require_once('lib/Span.php');
+=======
+  require_once('lib/Section.php');
+>>>>>>> 895ad4c638dc3b5db5f3e904491ae82f6c9e69c9
  ?>
 
 <!DOCTYPE html>
@@ -23,6 +27,8 @@
       echo new Span(new P('Hello world. Sille is Cool'),["style"=>"color:red"]);
 
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
+
+      echo new Section(new P("I am a section !!! wheee"));
     ?>
     <button type="button" name="button">Test</button>
   </body>
