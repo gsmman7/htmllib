@@ -5,6 +5,7 @@
   require_once('lib/Div.php');
   require_once('lib/Button.php');
   require_once('lib/Footer.php');
+  require_once('lib/Section.php');
  ?>
 
 <!DOCTYPE html>
@@ -24,6 +25,7 @@
       echo new Button('Test', ["type"=>"button", "name"=>"button"]);
 
       echo new Footer("Footer");
+      echo new Section(new P("I am a section !!! wheee"));
     ?>
     <button type="button" name="button">Test</button>
   </body>
