@@ -12,6 +12,8 @@
   require_once('lib/Nav.php');
   require_once('lib/Span.php');
   require_once('lib/Section.php');
+  require_once('lib/Tr.php');
+  require_once('lib/Td.php');
  ?>
 
 <!DOCTYPE html>
