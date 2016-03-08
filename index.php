@@ -12,11 +12,11 @@
   require_once('lib/Nav.php');
   require_once('lib/Span.php');
   require_once('lib/Section.php');
+  require_once('lib/Form.php');
   require_once('lib/Table.php');
   require_once('lib/Th.php');
   require_once('lib/Tr.php');
   require_once('lib/Td.php');
-
 
  ?>
 
@@ -41,8 +41,10 @@
       echo new Aside(new H2("ASIDE"));
       echo new Nav(new P('Ik ben een nav element!'));
       echo new Section(new P("I am a section !!! wheee"));
+      echo new Form ("http://labict.be/webtech/formchecker/","POST");
       echo new Table("Ik ben een tabel!");
       echo new Th("Ik ben een Table Header!");
+
 
       $trthcontent = "";
       $trthcontent .= new Th("1");
