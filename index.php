@@ -16,6 +16,8 @@
   require_once('lib/Th.php');
   require_once('lib/Tr.php');
   require_once('lib/Td.php');
+
+
  ?>
 
 <!DOCTYPE html>
@@ -41,6 +43,27 @@
       echo new Section(new P("I am a section !!! wheee"));
       echo new Table("Ik ben een tabel!");
       echo new Th("Ik ben een Table Header!");
+
+      $trthcontent = "";
+      $trthcontent .= new Th("1");
+      $trthcontent .= new Th("2");
+      $trthcontent .= new Th("3");
+
+      $tdcontent = "";
+      $tdcontent .= new Td("a").new Td("b").new Td("c");
+
+      $trtdcontent = "";
+      for ($i = 1.; $i <= 10.; $i++) {
+            $trtdcontent .= new Tr($tdcontent);
+          }
+
+      $tablecontent = "";
+      $tablecontent .= new Tr($trthcontent);
+      $tablecontent .= $trtdcontent;
+      $tablecontent .= ";";
+
+      echo new Table($tablecontent);
+
     ?>
     </body>
 </html>
