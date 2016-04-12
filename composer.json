@@ -1,5 +1,5 @@
 {
-    "name": "nicolas/demo-app",
+    "name": "NicolasVDB/htmllib",
     "require": {},
     "autoload":{
     	"psr-4":{"Nicolas\\htmllib\\":"lib/"}
