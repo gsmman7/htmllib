@@ -1,5 +1,5 @@
 {
-    "name": "NicolasVDB/htmllib",
+    "name": "nicolasvdb/htmllib",
     "require": {},
     "autoload":{
     	"psr-4":{"Nicolas\\htmllib\\":"lib/"}
