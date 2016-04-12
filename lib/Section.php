@@ -1,6 +1,7 @@
 <?php
 
-require_once("Element.php");
+ namespace Nicolas\htmllib;
+  use Nicolas\htmllib\Element;
 
 
 // this is a comment, dag wereld

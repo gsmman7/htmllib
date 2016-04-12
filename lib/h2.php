@@ -1,6 +1,8 @@
 <?php
 
-require_once("Element.php");
+ namespace Nicolas\htmllib;
+ use Nicolas\htmllib\Element;
+
 
 class H2 extends Element
 {

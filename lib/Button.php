@@ -1,6 +1,9 @@
 <?php
 
-require_once("Element.php");
+ namespace Nicolas\htmllib;
+  use Nicolas\htmllib\Element;
+
+
 
 class Button extends Element
 {

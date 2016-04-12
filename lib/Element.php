@@ -1,5 +1,7 @@
 <?php
 
+  namespace Nicolas\htmllib;
+
 class Element
 {
   protected $content = '';

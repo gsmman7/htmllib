@@ -1,5 +1,7 @@
 <?php
 
+  namespace Nicolas\htmllib;
+   use Nicolas\htmllib\Element;
 
 require_once("Element.php");
 

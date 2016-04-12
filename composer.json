@@ -1,0 +1,7 @@
+{
+    "name": "nicolas/demo-app",
+    "require": {},
+    "autoload":{
+    	"psr-4":{"Nicolas\\htmllib\\":"lib/"}
+    }
+}
